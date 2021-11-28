@@ -1,7 +1,7 @@
 tasks:
   - name: show-image-build
     command: |
-      echo -n 'docker-build: ' && cat ~/docker-build-date.txt
+      echo -n 'docker-build: ' && cat ~/docker-build-date-main.txt
   # init: |
   #   node -p 'Date()' >prebuild-date.txt
 
