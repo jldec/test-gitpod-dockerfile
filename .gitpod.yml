@@ -1,2 +1,7 @@
+tasks:
+  - name: show-image-build
+    command: |
+      echo -n 'docker-build: ' && cat ~/docker-build-date.txt
+
 image:
   file: gitpod.Dockerfile
