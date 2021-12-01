@@ -4,6 +4,7 @@ tasks:
       echo -n 'docker-build: ' && cat ~/docker-build-date-main.txt
     init: |
       node -p 'Date()' >prebuild-date.txt
+      echo yogit 
 
 image:
   file: gitpod.Dockerfile
