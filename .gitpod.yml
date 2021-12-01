@@ -2,8 +2,8 @@ tasks:
   - name: show-image-build
     command: |
       echo -n 'docker-build: ' && cat ~/docker-build-date-main.txt
-  # init: |
-  #   node -p 'Date()' >prebuild-date.txt
+    init: |
+      node -p 'Date()' >prebuild-date.txt
 
 image:
   file: gitpod.Dockerfile
